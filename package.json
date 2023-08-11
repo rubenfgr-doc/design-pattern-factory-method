@@ -1,0 +1,22 @@
+{
+  "name": "factory-method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "build": "./node_modules/.bin/tsc",
+    "start:prod": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}
